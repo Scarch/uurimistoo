@@ -1,2 +1,2 @@
 # uurimistoo
-Koodijupid uurimistoo veebirakendusteks
+Koodijupid uurimistöö veebirakendusteks
