@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase Sõnumirakendus</title>
+  </head>
+  <body>
+
+    <div id = "kiht1"></div>
+
+    <header>
+      <h2>Firebase Sõnumirakendus</h2>
+    </header>
+
+    <!-- taotlus katsetuste tegemiseks -->
+    <form id="test-form">
+      <input id="test-n-times" type="text" />
+      <button id="test-btn" type="submit">Katseta n korda</button>
+    </form>
+    
+    <div id="chat">
+      <!-- sõnumid näidatakse siin -->
+      <ul id="messages"></ul>
+
+      <!-- taotlus sõnumi saatmiseks -->
+      <form id="message-form">
+        <input id="message-input" type="text" />
+        <button id="message-btn" type="submit">Saada sõnum</button>
+      </form>
+
+    </div>
+
+    <!-- skript -->
+    <script src="./index_joudlus_auth_obfuscation.js" type="module"></script>
+  </body>
+</html>
