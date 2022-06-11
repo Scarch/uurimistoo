@@ -4,14 +4,14 @@ import { getAnalytics  } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getDatabase, onChildAdded, remove, ref, orderByChild, child, push, set, onValue, query } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
-  apiKey: "AIzaSyA7Cm7bIizsKpUwleB0ksyrKXXN4hHA6pk",
-  authDomain: "uurimistoo-430dd.firebaseapp.com",
-  databaseURL: "https://uurimistoo-430dd-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "uurimistoo-430dd",
-  storageBucket: "uurimistoo-430dd.appspot.com",
-  messagingSenderId: "226885809384",
-  appId: "1:226885809384:web:942da8c76d6bb0541fc55d",
-  measurementId: "G-X24J7KR5SV"
+  apiKey: "---------------------------------------",
+  authDomain: "---------------------------------------",
+  databaseURL: "---------------------------------------",
+  projectId: "---------------------------------------",
+  storageBucket: "---------------------------------------",
+  messagingSenderId: "---------------------------------------",
+  appId: "---------------------------------------",
+  measurementId: "---------------------------------------"
 };
 const app = initializeApp(firebaseConfig);
 const username = prompt("Sisesta oma nimi");
